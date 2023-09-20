@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../MainLayout/MainLayout";
 import Home from "../Pages/Home/Home";
+import Categories from "../Pages/Categories/Categories";
+import Category from "../Pages/Categories/Category";
 
 const myCreatedRoute = createBrowserRouter([
     {
@@ -17,7 +19,13 @@ const myCreatedRoute = createBrowserRouter([
             },
             {
                 path: "/categories",
-                element: <div className="text-white">This is Categories</div>
+                element: <Categories></Categories>,
+                children: [
+                    {
+                        path: '/categories/:id',
+                        element: <Category></Category>
+                    }
+                ]
             }
         ]
     },

@@ -17,7 +17,7 @@ const LatestMeals = () => {
     return (
         <div className="text-white text-2xl text-center">
             <div className="flex justify-center">
-                <div id="hello" className="grid grid-cols-3 gap-8">
+                <div id="hello" className="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-8">
                     {
                         latest.map(latestMeal => <LatestMealCard key={latestMeal.idMeal} latestMeal={latestMeal}></LatestMealCard>)
                     }
