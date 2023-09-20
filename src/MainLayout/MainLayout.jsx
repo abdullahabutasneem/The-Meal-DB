@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
+import Footer from "../Pages/Footer/Footer";
 
 
 const MainLayout = () => {
@@ -11,7 +12,7 @@ const MainLayout = () => {
                         <h1 className="text-lg font-bold">The Meal DB</h1>
                     </div>
                     <nav>
-                        <ul className="flex gap-4 text-lg font-medium">
+                        <ul className="flex gap-6 text-lg font-medium">
                             <NavLink
                                 to="/"
                                 className={({ isActive, isPending }) =>
@@ -40,7 +41,10 @@ const MainLayout = () => {
                     </nav>
                 </header>
             </div>
-            <Outlet></Outlet>
+            <div className="min-h-screen bg-yellow-950">
+                <Outlet></Outlet>
+            </div>
+            <Footer></Footer>
         </div>
     );
 };

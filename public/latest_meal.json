@@ -1,0 +1,49 @@
+{
+    "latesMeals": [
+        {
+            "strMeal": "Beef and Mustard Pie",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/sytuqu1511553755.jpg",
+            "idMeal": "52874"
+        },
+        {
+            "strMeal": "Ayam Percik",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/020z181619788503.jpg",
+            "idMeal": "53050"
+        },
+        {
+            "strMeal": "Apam balik",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/adxcbq1619787919.jpg",
+            "idMeal": "53049"
+        },
+        {
+            "strMeal": "Kapsalon",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/sxysrt1468240488.jpg",
+            "idMeal": "52769"
+        },
+        {
+            "strMeal": "Bean & Sausage Hotpot",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/vxuyrx1511302687.jpg",
+            "idMeal": "52848"
+        },
+        {
+            "strMeal": "Chilli prawn linguine",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/usywpp1511189717.jpg",
+            "idMeal": "52839"
+        },
+        {
+            "strMeal": "Baked salmon with fennel & tomatoes",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+            "idMeal": "52959"
+        },
+        {
+            "strMeal": "Broccoli & Stilton soup",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/tvvxpv1511191952.jpg",
+            "idMeal": "52842"
+        },
+        {
+            "strMeal": "Mbuzi Choma (Roasted Goat)",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/cuio7s1555492979.jpg",
+            "idMeal": "52968"
+        }
+    ]
+}
